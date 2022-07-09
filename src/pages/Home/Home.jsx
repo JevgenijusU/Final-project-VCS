@@ -1,6 +1,9 @@
 import './home.css';
 import myfoto from '../../images/MyFoto.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 export const Home = () => {
   return (
     <>
@@ -12,7 +15,7 @@ export const Home = () => {
                 <div className='line'></div>
                 <p className='m-0'>Jevgenijus Usovas</p>
               </div>
-              <h1 className='m-0'>
+              <h1 className='m-0' data-aos="fade-right">
                 Creative thinker <br />
                 Minimalism lover
               </h1>
@@ -28,7 +31,9 @@ export const Home = () => {
                 <p className='m-0'>I am currently open for part-time work.</p>
               </div>
             </div>
-            <div className='col-sm-5 pb-5 pt-5'>
+            <div className='col-sm-5 pb-5 pt-5' data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
               <div className='my-foto'>
                 <img src={myfoto} alt='React Bootstrap logo' />
               </div>

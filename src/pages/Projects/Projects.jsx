@@ -9,7 +9,13 @@ export const Projects = () => {
       <div className='row'>
         <div className='col-sm-6 d-flex justify-content-center mb-5'>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant='top' src={img1} />
+            <Card.Img
+              variant='top'
+              src={img1}
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-easing='ease-out-cubic'
+            />
             <Card.Body>
               <Card.Title className='text-center'>Project 1</Card.Title>
               <div className='line2 w-75'></div>
@@ -22,7 +28,13 @@ export const Projects = () => {
         </div>
         <div className='col-sm-6 d-flex justify-content-center mb-5'>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant='top' src={img1} />
+            <Card.Img
+              variant='top'
+              src={img1}
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-easing='ease-out-cubic'
+            />
             <Card.Body>
               <Card.Title className='text-center'>Project 2</Card.Title>
               <div className='line2 w-75'></div>
@@ -35,7 +47,13 @@ export const Projects = () => {
         </div>
         <div className='col-sm-6 d-flex justify-content-center mb-5'>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant='top' src={img1} />
+            <Card.Img
+              variant='top'
+              src={img1}
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-easing='ease-out-cubic'
+            />
             <Card.Body>
               <Card.Title className='text-center'>Project 3</Card.Title>
               <div className='line2 w-75'></div>
@@ -48,7 +66,13 @@ export const Projects = () => {
         </div>
         <div className='col-sm-6 d-flex justify-content-center mb-5'>
           <Card style={{ width: '18rem' }}>
-            <Card.Img variant='top' src={img1} />
+            <Card.Img
+              variant='top'
+              src={img1}
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-easing='ease-out-cubic'
+            />
             <Card.Body>
               <Card.Title className='text-center'>Project 4</Card.Title>
               <div className='line2 w-75'></div>
