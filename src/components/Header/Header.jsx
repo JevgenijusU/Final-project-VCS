@@ -14,7 +14,7 @@ export const Header = () => {
           <LinkContainer to='/'>
             <Navbar.Brand className='d-flex align-items-center align-content-center gap-2'>
               <div>
-                <img src={mainLogo} alt='React Bootstrap logo' />
+                <img src={mainLogo} alt='Logo' />
               </div>
               <div>Portfolio</div>
             </Navbar.Brand>
@@ -35,21 +35,30 @@ export const Header = () => {
             </Nav>
             <div className='social-icons d-flex gap-3'>
               <div>
-                <a href='https://github.com/JevgenijusU' target='_blank'>
-                  <img src={github} alt='React Bootstrap logo' />
+                <a
+                  href='https://github.com/JevgenijusU'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={github} alt='GitHub' />
                 </a>
               </div>
               <div>
                 <a
                   href='https://www.linkedin.com/in/jevgenijus-usovas-796780196/'
                   target='_blank'
+                  rel='noopener noreferrer'
                 >
-                  <img src={linkedin} alt='React Bootstrap logo' />
+                  <img src={linkedin} alt='LinkedIn' />
                 </a>
               </div>
               <div>
-                <a href='https://www.figma.com/' target='_blank'>
-                  <img src={figma} alt='React Bootstrap logo' />
+                <a
+                  href='https://www.figma.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={figma} alt='Figma' />
                 </a>
               </div>
             </div>

@@ -5,7 +5,7 @@ import nologo from '../../images/nologo.svg';
 import wake from '../../images/wake.jpg';
 import ski from '../../images/skiing1.jpg';
 import carting from '../../images/carting.jpg';
-import travel from '../../images/travel.jpg'
+import travel from '../../images/travel.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
 
@@ -86,22 +86,22 @@ export const Hobbies = () => {
         className='owl-theme'
         items='2'
         autoplay
-        nav = {false}
-        dots = {false}
+        nav={false}
+        dots={false}
         loop
         margin={10}
       >
         <div className='item'>
-          <img src={wake} />
+          <img src={wake} alt='Wake' />
         </div>
         <div className='item'>
-          <img src={ski} />
+          <img src={ski} alt='Ski'/>
         </div>
         <div className='item'>
-          <img src={carting} />
+          <img src={carting} alt='Carting'/>
         </div>
         <div className='item'>
-          <img src={travel} />
+          <img src={travel} alt='Travel'/>
         </div>
       </OwlCarousel>
     </Container>
