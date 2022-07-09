@@ -1,0 +1,133 @@
+section .container {
+	padding-top: 5rem;
+}
+
+.line-name {
+	margin-bottom: 2.5rem;
+}
+
+section .line-name .line {
+	border-bottom: 0.125rem solid green;
+	width: 2rem;
+}
+
+.line-name p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.9rem;
+	line-height: 1rem;
+	color: #F9F8FF;
+}
+
+section h1 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 3rem;
+	color: #F9FAFC;
+}
+
+.about-me {
+	margin-top: 3rem;
+}
+
+section .about-me p{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.8rem;
+	line-height: 1rem;
+	color: #6B7280;
+}
+
+section .line1 {
+	border-bottom: 0.125rem solid #6B7280;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+.full-time p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.6rem;
+	line-height: 1rem;
+	color: #6B7280;
+}
+.my-foto img {
+	width: 100%;
+   height: 100%;
+}
+
+@media screen and (min-width: 576px) {
+	.col-sm-5.pb-5.pt-5 {
+		display: flex;
+		justify-content: center;
+		height: 100%;
+	}
+	section .line1 {
+		margin-top: 1rem;
+	}
+
+	.about-me {
+		margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+	.about-me {
+		margin-top: 5rem;
+  }
+  section .line1 {
+	margin-top: 9rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.col-sm-5.pb-5.pt-5 {
+	padding-top: 0 !important;
+	}
+	.line-name {
+		margin-bottom: 4.5rem;
+		margin-top: 2rem;
+  }
+  .about-me {
+	margin-top: 7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+	
+	.line-name p{
+		font-size: 1.9rem;
+  }
+  section h1 {
+	font-size: 5rem;
+	line-height: 5rem;
+  }
+  section .about-me p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+  }
+  .full-time p {
+	font-size: 0.8rem;
+  }
+  .line1 {
+	margin-top: 12rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.about-me {
+		margin-top: 9rem;
+  }
+  section .line1 {
+	margin-top: 17rem;
+	}
+}
+
+.my-foto img {
+	border-radius: 4%;
+}

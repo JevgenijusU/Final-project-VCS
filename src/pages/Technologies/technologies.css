@@ -1,0 +1,51 @@
+.progress-bar {
+	background: linear-gradient(270deg, #13ADC7 0%, #438FCD 36.96%, #6978D1 66.67%, #945DD6 100%);
+	border-radius: 2rem;
+	animation: progress-animation 5s forwards;
+}
+
+.progress {
+	background: #162950;
+	border-radius: 3.25rem;
+	width: 76%;
+   margin: auto;
+	height: 0.8rem;
+}
+
+@keyframes progress-animation {
+	0% {width: 0%;};
+	100% {width: 100%;};
+}
+
+.progressBar {
+	margin-top: 1rem;
+}
+
+.d-flex.justify-content-between  {
+	width: 73%;
+	margin: auto;
+	margin-bottom: 0.3rem;
+	color: #FFFFFF;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1rem;
+}
+
+
+.right {
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 200;
+font-size: 0.7rem;
+color: #FFFFFF;
+}
+
+h2 {
+	color:#FFFFFF;
+	margin: 5rem auto;
+}
+
+.skills {
+	color:#FFFFFF;
+}

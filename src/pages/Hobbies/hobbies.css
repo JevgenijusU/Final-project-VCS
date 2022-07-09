@@ -1,0 +1,33 @@
+.col-sm-12 {
+	border-bottom: 1px solid gray;
+	margin: 0.6rem 0;
+}
+
+.job-info {
+	color: white;
+	margin-left: 0.5rem;
+}
+
+.org-name {
+	color: #888;
+	font-size: 1.5rem;
+	line-height: 1.2rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+.description {
+	margin: 0.7rem 0;
+}
+
+ul.p-0.list-unstyled.m-0 {
+	color: #888;
+}
+
+.nologo img{
+	width: 6.25rem;
+   max-width: 1400px;
+}
+

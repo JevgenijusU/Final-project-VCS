@@ -1,0 +1,41 @@
+
+h1 {
+	color:#FFFFFF;
+	margin: 5rem auto;
+}
+
+
+
+.line2 {
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(270deg, #13ADC7 0%, #438FCD 36.96%, #6978D1 66.67%, #945DD6 100%);
+	border-image-slice: 1;
+	border-radius: 20%;
+	margin: auto;
+}
+
+.card {
+	background-color: #0F1624;
+	border: 1.2rem solid #0F1624;
+	box-shadow: white 0px 0px 0px 0px, white 0px 0px 5px 1px;
+	border-radius: 2.813rem 0;
+}
+
+.card-body {
+	color: #FFFFFF;
+}
+
+.text-center.card-title.h5 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+p.card-text {
+	font-family: 'Poppins';
+	font-weight: 600;
+   font-size: 0.9rem;
+   line-height: 1.4rem;
+	margin-top: 0.5rem;
+}
