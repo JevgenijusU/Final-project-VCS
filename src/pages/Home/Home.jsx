@@ -25,7 +25,7 @@ export const Home = () => {
               </div>
               <div className='line1'></div>
               <div className='full-time'>
-                <p className='m-0'>I am currently open for part-time work.</p>
+                <p className='m-0'>I am currently open for full-time work.</p>
               </div>
             </div>
             <div className='col-sm-5 pb-5 pt-5' data-aos="fade-left"
