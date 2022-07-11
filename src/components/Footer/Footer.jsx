@@ -30,7 +30,10 @@ export const Footer = () => {
             <div className='col-sm-3'>
               <div className='social-media d-flex justify-content-center align-items-center align-content-center pt-1 gap-3'>
                 <div>
-                  <a href='https://github.com/JevgenijusU' target='_blank'>
+                  <a
+                    href='https://github.com/JevgenijusU'
+                    target='_blank rel="noopener noreferrer"'
+                  >
                     <img src={github} alt='' />
                   </a>
                 </div>
@@ -38,12 +41,16 @@ export const Footer = () => {
                   <a
                     href='https://www.linkedin.com/in/jevgenijus-usovas-796780196/'
                     target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <img src={linkedin} alt='' />
                   </a>
                 </div>
                 <div>
-                  <a href='https://www.figma.com/' target='_blank'>
+                  <a
+                    href='https://www.figma.com/'
+                    target='_blank rel="noopener noreferrer"'
+                  >
                     <img src={figma} alt='' />
                   </a>
                 </div>
