@@ -5,6 +5,10 @@ import { Projects } from './pages/Projects/Projects';
 import { Technologies } from './pages/Technologies/Technologies';
 import { Hobbies } from './pages/Hobbies/Hobbies';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function App() {
   return (

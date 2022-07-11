@@ -6,13 +6,13 @@ import linkedin from '../../images/Linkedin.svg';
 import figma from '../../images/Figma.svg';
 import { LinkContainer } from 'react-router-bootstrap';
 
-export const Header = () => {
+export const Header = () => { 
   return (
     <div>
       <Navbar expand='lg'>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand className='d-flex align-items-center align-content-center gap-2'>
+            <Navbar.Brand className='d-flex align-items-center align-content-center gap-2 navbrand1'>
               <div>
                 <img src={mainLogo} alt='Logo' />
               </div>

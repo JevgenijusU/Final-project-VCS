@@ -5,13 +5,13 @@
 
 .job-info {
 	color: white;
-	margin-left: 0.5rem;
+	margin-left: 1rem;
 }
 
 .org-name {
 	color: #888;
 	font-size: 1.5rem;
-	line-height: 1.2rem;
+	line-height: 1;
 }
 
 h3 {

@@ -19,7 +19,7 @@
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-	color: #3cb3cb;
+	color: white;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
 	color: #3cb3cb;
@@ -32,4 +32,6 @@
 .navbar-light .navbar-toggler {
 	color:#0F1624;
 }
+
+
 

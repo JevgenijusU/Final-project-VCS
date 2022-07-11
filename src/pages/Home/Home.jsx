@@ -1,9 +1,6 @@
 import './home.css';
 import myfoto from '../../images/MyFoto.jpg';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
-AOS.init();
 export const Home = () => {
   return (
     <>

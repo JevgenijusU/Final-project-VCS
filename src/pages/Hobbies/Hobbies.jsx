@@ -90,18 +90,29 @@ export const Hobbies = () => {
         dots={false}
         loop
         margin={10}
+        responsive={{
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        }}
       >
         <div className='item'>
           <img src={wake} alt='Wake' />
         </div>
         <div className='item'>
-          <img src={ski} alt='Ski'/>
+          <img src={ski} alt='Ski' />
         </div>
         <div className='item'>
-          <img src={carting} alt='Carting'/>
+          <img src={carting} alt='Carting' />
         </div>
         <div className='item'>
-          <img src={travel} alt='Travel'/>
+          <img src={travel} alt='Travel' />
         </div>
       </OwlCarousel>
     </Container>
