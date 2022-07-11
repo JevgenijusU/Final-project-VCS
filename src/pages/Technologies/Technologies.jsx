@@ -69,8 +69,9 @@ export const Technologies = () => {
           className='skills d-flex flex-column justify-content-center align-items-center'
         >
           <ul>
-            <li>A2 English</li>
-            <li>C2 Russian</li>
+            <li>English - Limited Working Proficiency</li>
+            <li>Russian - Native</li>
+            <li>Lithuanian - Native</li>
           </ul>
         </Col>
       </Row>
