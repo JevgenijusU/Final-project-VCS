@@ -14,7 +14,7 @@ export const Footer = () => {
                 <p className='text-center m-0'>
                   Call me:
                   <br />
-                  +37068460233
+                  +3706846****
                 </p>
               </div>
             </div>
