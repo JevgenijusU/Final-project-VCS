@@ -26,7 +26,7 @@ export const Hobbies = () => {
               </div>
               <div className='job-info d-flex flex-column'>
                 <span className='org-name'>Transekspedicija, UAB</span>
-                <h3 className='m-0'>Assistant Manager Recruitment</h3>
+                <h3 className='m-0'>Transport Manager</h3>
                 <p> Aug 2020 - Mar 2022</p>
                 <div className='description'>
                   <ul className='p-0 list-unstyled m-0'>
