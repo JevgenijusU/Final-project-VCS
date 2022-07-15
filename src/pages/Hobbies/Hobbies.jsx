@@ -32,7 +32,7 @@ export const Hobbies = () => {
                   <ul className='p-0 list-unstyled m-0'>
                     <li> - Organization of partial cargo transportation;</li>
                     <li> - Checking documents and their preparation;</li>
-                    <li> - Management and control of cargo transportation;</li>
+                    <li> - Management and control of cargo transportation.</li>
                   </ul>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export const Hobbies = () => {
                   <ul className='p-0 list-unstyled m-0'>
                     <li> - Screenin resumes;</li>
                     <li> - Creating job ads;</li>
-                    <li> - Conducting phone interviews;</li>
+                    <li> - Conducting phone interviews.</li>
                   </ul>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export const Hobbies = () => {
                 <div className='description'>
                   <ul className='p-0 list-unstyled m-0'>
                     <li> - Client search;</li>
-                    <li> - Administrative work;</li>
+                    <li> - Administrative work.</li>
                   </ul>
                 </div>
               </div>
